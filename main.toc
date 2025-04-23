@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Clase 10. Configuraciones geométricas}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Problemas p.14 del problemario}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problemas p.15 del problemario}{5}{section.1.2}%

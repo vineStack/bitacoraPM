@@ -1,0 +1,4 @@
+#asi de ignoran archivos .aux o de cualquier otra extension en general, usando *
+*.aux
+*.log
+*.out

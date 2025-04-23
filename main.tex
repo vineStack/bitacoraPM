@@ -1,0 +1,48 @@
+\documentclass[12pt]{book}
+\usepackage[a4paper,margin=1in]{geometry}
+
+\usepackage{titlesec}
+% Redefinir el formato del capítulo
+\titleformat{\chapter}[block]
+  {\normalfont\huge\bfseries} % Fuente del título (normal, tamaño, en negrita)
+  {} % No mostrar el número de capítulo
+  {0pt} % Espacio entre el número y el título
+  {} % El formato del título, vacío para no poner "Capítulo"
+\titlespacing*{\chapter}{0pt}{-10pt}{20pt} % Ajusta el espacio antes y después del título
+
+%\usepackage[spanish]{babel}
+\usepackage[spanish,es-noshorthands]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{tikz}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{venndiagram}
+
+\newtheorem{ejem}{Ejemplo}[section]
+\newtheorem{excercise}{Ejercicio}
+
+\author{Pérez López Jesús Eduardo}
+\title{Bitácora de clase del primer parcial de Pensamiento matemático}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+
+	%\include{clases/clase1.tex}
+  %\include{clases/clase2.tex}
+  %\include{clases/clase3.tex}
+  %\include{clases/clase4.tex}
+  %\include{clases/clase5.tex}
+  %\include{clases/clase6.tex}
+  %\include{clases/clase7.tex}
+  %\include{clases/clase8.tex}
+  \include{clases/clase9.tex}
+  % \include{clases/clase10.tex}
+\end{document}

@@ -1,0 +1,28 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Clase 1. Encuentra el algoritmo}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Inicio de clase}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}El algoritmo}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Lenguaje cotidiano}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Lenguaje matemático}{6}{subsection.1.2.2}%
+\contentsline {chapter}{\numberline {2}Clase 2. Tangram}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Elaborando las piezas}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Actividad}{9}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Clase 3. Tangram circular y problemas}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Tangram circular}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Acertijos}{12}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Clase 4. Exposición de los problemas de la clase 3}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Problema 1}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Problema 2}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Problema 3}{15}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Problema 4}{16}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Problema 5}{16}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Clase 5. Volumen de un prisma rectangular}{17}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Clase 6. Exposición}{21}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Solución 1}{21}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Solución 2}{21}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Clase 7. Rompecabezas}{23}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Rompecabezas 1. Hextricks}{23}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Rompecabezas 2}{23}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Rompecabezas 3}{23}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Clase 8. Problemas de aritméticos y geométricos}{25}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Clase 9. PROBLEMAS}{29}{chapter.9}%
