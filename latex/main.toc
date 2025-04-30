@@ -13,7 +13,7 @@
 \contentsline {chapter}{\numberline {4}Clase 4. Exposición de los problemas de la clase 3}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Problema 1}{15}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Problema 2}{15}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Problema 3}{15}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Problema 3}{16}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Problema 4}{16}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Problema 5}{16}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Clase 5. Volumen de un prisma rectangular}{17}{chapter.5}%
@@ -23,6 +23,9 @@
 \contentsline {chapter}{\numberline {7}Clase 7. Rompecabezas}{23}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Rompecabezas 1. Hextricks}{23}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Rompecabezas 2}{23}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Rompecabezas 3}{23}{section.7.3}%
+\contentsline {section}{\numberline {7.3}Rompecabezas 3}{24}{section.7.3}%
 \contentsline {chapter}{\numberline {8}Clase 8. Problemas de aritméticos y geométricos}{25}{chapter.8}%
 \contentsline {chapter}{\numberline {9}Clase 9. PROBLEMAS}{29}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Clase 10. Configuraciones geométricas}{31}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Problemas p.14 del problemario}{31}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Problemas p.15 del problemario}{31}{section.10.2}%
