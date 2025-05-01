@@ -6,10 +6,71 @@ Ejercicios p.14 del problemario.
     1.13 «Pagué doce centavos por los huevos que compré al tendero», explicó la cocinera, «pero le hice darme dos huevos extra porque eran muy pequeños. Eso hizo que el total sumara un centavo menos por docena que el primer precio que me dio.» ¿Cuántos huevos compró la cocinera?
 \end{excercise}
 
+\textbf{SOLUCIÓN}
+    $x :=$ Cantidad de huevos comprados inicialmente\\
+    $p :=$ Precio inicial de cada huevo\\
+    Como una docena vale $12$ centavos entonces
+    \[ \frac{12}{\frac{12}{x}} = \frac{144}{x} = P_1 \]
+    pero luego le dieron dos, por lo cual
+    \[ \frac{12}{\frac{12}{x+2}} = \frac{144}{x+2} = P_2 = P_1 -1 \]
+    Luego:\\
+    \begin{gather*}
+        \\ \frac{12}{\frac{144}{x}}-1 = \frac{144}{x+2}
+        \\ \frac{12}{\frac{144-x}{x}} = \frac{144}{x+2}
+        \\ (144-x)(x+2) = 144x
+        \\ 144x -x^{2} + 288 -2x = 144x
+        \\ x^{2}+2x-288 = 0
+        \\ x^{2} + 18x -16x - 288 = 0
+        \\ x(x+18) -16(x+18) = 0
+        \\ (x-16)(x+18); 
+        \\ \therefore x_1 = 16, x_2 = -18.
+    \end{gather*}
+    Descartamos $x_2$ pues buscamos un valor positivo. Así, concluímos que la cocinera compró 18 huevos.
+
 \begin{excercise}
     1.14 La señora Wiggs le explicaba a Lovey Mary que ahora tiene una plantación cuadrada de repollos más grande que la del año pasado, y que por lo tanto tendrá 211 repollos más. ¿Cuántos repollos tendrá este año la señora Wiggs.
 \end{excercise}
 
+\textbf{SOLUCIÓN}
+\begin{center}
+    \input{../graficosTikz/b1Tikz/tikzC9.tex}
+\end{center}
+Notemos que:
+\begin{gather*}
+    m^{2} = n^{2} + 211 \Rightarrow m^{2} - n^{2} = 211
+    \\ (m+n)(m-n) = 211
+\end{gather*}
+Como 211 es un número primo, entonces
+\begin{equation*}
+    \begin{aligned}
+        m-n = 1\\
+        m+n = 211
+    \end{aligned}
+\end{equation*}
+Sumando obtenemos $2m = 212 \Rightarrow m = 106$\\
+Sustituyendo $m$ en $m+n = 211 \quad \Rightarrow n =105$ \\
+
+Ahora, $106^{2} = 11236$ y esta es la cantidad de repollos que tendrá la señora Wiggs este año.
+
 \begin{excercise}
     1.15 Tras recoger 770 castañas, tres niñas las dividieron de modo que las cantidades recibidas guardaran la misma proporción que sus edades. Cada vez que Mary se quedaba con cuatro castañas, Nellie tomaba tres, y por cada seis que recibía Mary, Susie tomaba siete. ¿Cuántas castañas recibió cada niña?
 \end{excercise}
+
+\textbf{SOLUCION}
+Definimos $M,N,S$ a las castañas que le corresponden a Mary, Nellie y a Susie, respectivamente. Entonces $M:N :: M:S\text{ equivalente a } 4:3 :: 6:7$
+\begin{gather*}
+    \frac{M}{N} = \frac{3}{4} \rightarrow N = \frac{3}{4}M \\
+    \frac{M}{S} = \frac{7}{6} \rightarrow S = \frac{7}{6}M \\
+\end{gather*}
+Pero $M+N+S = 770$
+\begin{gather*}
+    M + \frac{3}{4}M + \frac{7}{6}M = 770 \\
+    \frac{35M}{12} = 770 \\
+    M = \frac{770 \cdot 12}{35} \rightarrow M = 264\\
+\end{gather*}
+Luego
+\begin{gather*}
+    N = \frac{3}{4}M \rightarrow N = 198\\
+    S = \frac{7}{6}M \rightarrow S = 308\\
+\end{gather*}
+Mary, Nellie y Susie tiene 264, 198 y 308 castañas, respectivamente.
