@@ -1,0 +1,32 @@
+\begin{tikzpicture}[baseline=(current bounding box.north)]
+    % triangulo
+    \fill[blue] (-1,2.5) circle (3pt);
+    \fill[blue] (5,2.5) circle (3pt);
+    \fill[blue] (2,1) circle (3pt);
+    % punta de flecha
+    \fill[blue] (0,0) circle (3pt);
+    \fill[blue] (2,4) circle (3pt);
+    \fill[blue] (4,0) circle (3pt);
+
+    % nombramos las lineas de la estrella de 5 puntos
+    \draw[name path=linea1, line width=1.5pt] (0,0) -- (2,4);
+    \draw[name path=linea2, line width=1.5pt] (0,0) -- (5,2.5);
+    \draw[name path=linea3, line width=1.5pt] (4,0) -- (-1,2.5);
+    \draw[name path=linea4, line width=1.5pt] (4,0) -- (2,4);
+    \draw[name path=linea5, line width=1.5pt] (-1,2.5) -- (5,2.5);
+
+    % nombrando las intersecciones de las lineas
+    \path[name intersections={of=linea1 and linea3, by={A}}];
+    \path[name intersections={of=linea1 and linea5, by={B}}];
+    \path[name intersections={of=linea2 and linea3, by={C}}];
+    \path[name intersections={of=linea2 and linea4, by={D}}];
+    \path[name intersections={of=linea4 and linea5, by={E}}];
+    
+    % marcando las intersecciones    
+    \fill[blue] (A) circle (3pt);
+    \fill[blue] (B) circle (3pt);
+    \fill[blue] (C) circle (3pt);
+    \fill[blue] (D) circle (3pt);
+    \fill[blue] (E) circle (3pt);
+
+\end{tikzpicture}
