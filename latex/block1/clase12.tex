@@ -4,8 +4,22 @@
 \textbf{Actividad 1.7}
 En un cuadrado se localizan los puntos medios de sus lados y se trazan segmentos de sus vértices a los puntos medios como se muestra en la figura
 ¿ Cuánto vale él área del cuadrado A, B,C, D entre el área
-del cuadrado azul?
+del cuadrado azul?\bigskip
+\par
+\begin{minipage}[c]{0.48\textwidth}
+    \centering
+    \input{../graficosTikz/b1Tikz/tikzC12/pro-Act1-7.tex}
+    \captionof{figure}{Problema}
+\end{minipage}
+\begin{minipage}[c]{0.48\textwidth}
+    \centering
+    \input{../graficosTikz/b1Tikz/tikzC12/sol-Act1-7.tex}
+    \captionof{figure}{Solución}
+\end{minipage}
+\par
 
+La forma de solucionarlo fue viendo que se formaban cuatro triangulos y cuatro cuadrilateros como los resaltados en la Figura 1.2, y uniendo cada triangulo con un cuadrilatero se formaban 4 cuadrados más, obteniendo asi que el area del cuadrado azul es una quinta parte del cuadrado A,B,C,D, es decir $7.2 u^{2}$
+\\
 \textbf{1.5 Logicamente aclarado (p.18-19)}
 \begin{excercise}
 1.16 Se corrieron los 100 metros planos en los juegos olímpicos. Participaron en la final sólo cinco competidores: Bernardo, Diego, Ernesto, Antonio y Carlos. Fíjese si, partiendo de los siguientes datos, puede encontrar el orden en el que llegaron a la meta:
@@ -15,24 +29,88 @@ del cuadrado azul?
 \\ D) Ernesto fue más rápido que Antonio pero más lento que Diego.
 \end{excercise}
 
-\textbf{Actividad 1.9}
-El Ajaw K’inich y Xochitl paseaban por uno de los jardines y Xochitl propone
-que, juntos descubran el rango de las personas que vayan encontrando a su paso y elAjaw K’inich acepta el reto y se presentaron las siguientes situaciones.
+\textbf{Solución}
+\begin{center}
+    \begin{tabular}{c|c|c|c|c|c}
+        Corredor & 1 & 2 & 3 & 4 & 5\\ \hline
+        Antonio &0&0&0&1&0 \\ \hline
+        Bernardo &0&0&0&0&1 \\ \hline
+        Carlos &1&0&0&0& \\ \hline
+        Diego &0&1&0&0& \\ \hline
+        Ernesto &0&0&1&0&0 \\ \hline
+    \end{tabular}
+    \captionof{figure}{Los unos representan la posicion que ocupó cada participante de la carrera}
+\end{center}
 
-1. Estaban tres personas y ellos le preguntaron a A: «¿Eres ocelopilli o teyanca-qui?». A respondió, pero tan confusamente, que el Ajaw K’inich, al igual queXochitl, no pudo enterarse de lo que decía. Entonces el Ajaw K’inich preguntó a B: «¿Qué ha dicho A?». Y B le respondió: «A ha dicho que es teyacanqui». Pero en ese instante el tercer hombre, C, dijo: «No creas a B, que está mintiendo». La pregunta es, ¿qué son B y C?. El Ajaw K’inich le explica a Xochitl, su razonamiento para dar con la verdad, a partir de lo que dice C,sin embargo, ella le explica que no era necesario la respuesta de C para saber la verdad sobre B. ¿Cómo razonaron estos personajes?
+\textbf{Actividad 1.9}
+El Ajaw K’inich y Xochitl paseaban por uno de los jardines y Xochitl propone que, juntos descubran el rango de las personas que vayan encontrando a su paso y elAjaw K’inich acepta el reto y se presentaron las siguientes situaciones.
+
+1. Estaban tres personas y ellos le preguntaron a A: «¿Eres ocelopilli o teyanca-qui?». A respondió, pero tan confusamente, que el Ajaw K’inich, al igual que Xochitl, no pudo enterarse de lo que decía. Entonces el Ajaw K’inich preguntó a B: «¿Qué ha dicho A?». Y B le respondió: «A ha dicho que es teyacanqui». Pero en ese instante el tercer hombre, C, dijo: «No creas a B, que está mintiendo». La pregunta es, ¿qué son B y C?. El Ajaw K’inich le explica a Xochitl, su razonamiento para dar con la verdad, a partir de lo que dice C,sin embargo, ella le explica que no era necesario la respuesta de C para saber la verdad sobre B. ¿Cómo razonaron estos personajes?
+\\
+\textbf{Solución.} A y C son ocelopilli, mientras que B es teyacanqui.\\
+
+El Ajaw K'inich razonó viendo las dos posibilidades:
+\begin{itemize}
+    \item Si C no dice la verdad, entonces B es ocelopilli, de donde se sigue que A es teyacanqui pero esto no puede suceder porque ellos no dicen la verdad por lo cual tendriamos un teyacanqui que dice la verdad y un ocelopilli que miente.
+    \item si C dice la verdad entonces B es teyacanqui, por lo cual A es ocelopilli. 
+\end{itemize}
+
+Mientras que la forma de razonar de Xochitl fue:
+\begin{enumerate}
+    \item Si B miente entonces A es ocelopilli y dijo la verdad
+    \item Si B dice la verdad entonces A es teyacanqui pero en ese caso A estaría mintiendo lo cual nos llevaría a que es un ocelopilli mentiroso
+\end{enumerate}
 
 2. Unos pasos más adelante, se encuentran a tres personas y le preguntan a la persona A, «¿Cuántos ocepilli hay entre ustedes»; la persona A contesta pero el canto de un cenzontle, provocó que su respuesta fuera ininteligible. Entonces Xochitl le pregunta B «A ha dicho que hay sólo hay un ocepilli entre nosotros» Y por su parte C les dice, «No le crean a B que está mintiendo». Ahora, ¿qué son B y C.
 
-3. Un poco después se encuentran a dos persona más y le preguntan a una de ellas sobre su rango y contesta: Uno al menos de nosotros es teyacanqui. ¿Qué es la persona que contesta? ¿Y la otra?
+\textbf{Solución.} B es teyacanqui y C ocelopilli.
+
+\begin{enumerate}
+    \item Si B dice la verdad, entonces A también la dijo, pero esto no es posible porque se supone que solo hay un ocelopilli, llevando a que A y B se contradigan
+    \item Si C dice la verdad, no hay ninguna contradicción
+    \item Si C miente, entonces B dice la verdad y nos lleva al primer caso
+\end{enumerate}
+
+3. Un poco después se encuentran a dos persona más y le preguntan a una de ellas sobre su rango y contesta: Uno al menos de nosotros es teyacanqui. ¿Qué es la persona que contesta? ¿Y la otra?\\
+
+\textbf{Solución.} El que contesta es ocelopilli y el otro es teyacanqui
+\begin{itemize}
+    \item El que contesta miente, pero esto no es posible pues de ser así entonces
+    \begin{enumerate}
+        \item Los dos son teyacanquis, por lo cual dijo la verdad
+        \item Ninguno es teyacanqui, pero supusimos que el que contesta miente
+    \end{enumerate}
+    \item El que contesta dice la verdad
+\end{itemize}
 
 4. Apenas habían terminado de explicarse el acertijo anterior, cuando pasan dos personas y una de ellas dice: O yo soy teyacanqui ó mi acompañante es ocelopilli. ¿Qué es la persona que contesta y qué es su acompañante?
 
-5. De vuelta al templo mayor, se encuentran con A, B y C. A dice: Todos nosotros somos teyacanquis. B dice: Uno de nosotros, y sólo uno es un ocelopilli. ¿Qué son A, B y C?
+\textbf{Solución.} Ambas personas son ocelopilli
 
-6. Xochitl al Ajaw K’inich, le plantea lo siguiente, si las respuestas del grupoIntuición lógica y pensamiento lateral20 anterior hubieran sido: A: Todos somos teyancaquis. B: Uno y sólo uno, es un teyancanqui. ¿Puede determinarse lo que es B? ¿Puede determinarse lo que es C?
+5. De vuelta al templo mayor, se encuentran con A, B y C. A dice: Todos nosotros somos teyacanquis. B dice: Uno de nosotros, y sólo uno es un ocelopilli. ¿Qué son A, B y C?\\
 
-7. Posteriormente, se encuentran a dos y una de ellas dice: Yo soy teyacanqui y mi compañero no lo es. ¿Qué son A y B?
+\textbf{Solución.} A y C son teyacanqui, B es ocelopilli.
+\begin{enumerate}
+    \item A miente, porque si dijera la verdad habria una contradicción
+    \item Si B estuviese mintiendo entonces se cumpliría el caso 1
+\end{enumerate}
 
-8. Casi llegando a palacio, se encuentran a tres personas; A y B dicen lo siguiente: A: B es teyacanqui. B: A y C son del mismo tipo. ¿Qué es C?
+6. Xochitl al Ajaw K’inich, le plantea lo siguiente, si las respuestas del grupo anterior hubieran sido: A: Todos somos teyancaquis. B: Uno y sólo uno, es un teyancanqui. ¿Puede determinarse lo que es B? ¿Puede determinarse lo que es C?\\
 
-9. La pilli Xochitl, haciendo gala de sus habilidades, le plantea lo siguiente al Ajaw K’inich; la persona A dice que B y C son del mismo tipo. Al preguntarle a C «Son A y B del mismo tipo». ¿Qué responde C?
+\textbf{Solución.} No sería posible determinar que es C
+\begin{enumerate}
+    \item A miente, porque si dijera la verdad habria una contradicción
+    \item Si B estuviese mintiendo entonces se cumpliría el caso 1
+    \item Si B dice la verdad entonces ese unico teyacanqui es A
+\end{enumerate}
+
+7. Posteriormente, se encuentran a dos y una de ellas dice: Yo soy teyacanqui y mi compañero no lo es. ¿Qué son A y B? \\
+
+\textbf{Solución.} Los dos son teyacanquis
+
+8. Casi llegando a palacio, se encuentran a tres personas; A y B dicen lo siguiente: A: B es teyacanqui. B: A y C son del mismo tipo. ¿Qué es C?\\
+\textbf{Solución.} C es teyacanqui
+\begin{enumerate}
+    \item A dice la verdad entonces B miente y, A y C son diferentes
+    \item A miente entonces C también es un mentiroso
+\end{enumerate}
