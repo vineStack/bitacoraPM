@@ -1,0 +1,31 @@
+\begin{tikzpicture}[scale=0.5]
+    \draw[help lines, opacity=0.4] (0,-1) grid (10,9); %cuadricula
+
+    \draw[thick] (1,1) -- (7,1) -- (7,7) -- (1,7) --cycle; %dibujo cuadrilatero
+
+    %Etiquetas vertices y puntos medios
+    \node[above left] at (1,1) {\small A};
+    \node[above right] at (7,1) {\small B};
+    \node[above right] at (7,7) {\small C};
+    \node[above left] at (1,7) {\small D};
+    \node[above left] at (1,4) {\small E};
+    \node[below] at (4,1) {\small F};
+    \node[above right] at (7,4) {\small G};
+    \node[above] at (4,7) {\small H};
+
+    %segmentos de los vertices a los puntos medios
+    \draw[thick,green, name path=AH] (1,1) -- (4,7); %AH
+    \draw[thick,green, name path=CF] (7,7) -- (4,1); %CF
+    \draw[thick,green, name path=BE] (7,1) -- (1,4); %BE
+    \draw[thick,green, name path=DG] (1,7) -- (7,4); %DG
+
+    %nombrando las intersecciones
+    \path[name intersections={of=DG and AH, by={P}}];
+    \path[name intersections={of=DG and CF, by={Q}}];
+    \path[name intersections={of=AH and BE, by={R}}];
+    \path[name intersections={of=BE and CF, by={S}}];
+
+    %coloreando de azul el cuadrado chico
+    \draw[fill=cyan, ultra thick,cyan,opacity=0.3] (P) -- (Q) -- (S) -- (R) --cycle;
+
+\end{tikzpicture}
