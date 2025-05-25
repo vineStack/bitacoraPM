@@ -1,0 +1,37 @@
+\section{clase 20}
+\textbf{01/04/2025}
+
+\subsection{Cuadro comparativo}
+
+\begin{tabular}{p{0.20\textwidth}|p{0.28\textwidth}|p{0.20\textwidth}|p{0.28\textwidth}}
+    \hline \multicolumn{4}{c}{Enfoques} \\ \hline
+    \multicolumn{2}{c}{Polya} & \multicolumn{2}{c}{Schoenfeld} \\ \hline
+    Entender el problema.&Se analiza el problema buscando identificar los datos conocidos, los desconocidos y a lo que se busca llegar&Conocimientos y recursos.&El conocimiento previo y los recursos disponibles son necesarios, más no suficientes para la resolución del problema planteado.\\ \hline
+    Diseñar el plan.&Pensar en problemas anteriormente resueltos; dividir el problema en partes más pequeñas; se consideran patrones y relaciones; se consideran casos especiales.&Metacognición.& Planear, monitorear y evaluar; pensar sobre el pensamiento, es decir, reflexionar sobre nuestra forma de pensar, de aprender. \\\hline
+    Ejecutar el plan.&Aplicar las estrategias y técnicas seleccionadas; estar dispuesto a cambiar el plan si parece no haber resultados&Creencias y actitudes.& Las creencias sobre la naturaleza de las matemáticas, la autoeficacia y la disposición para enfrentar desafíos pueden afectar significativamente el enfoque y la persistencia de una persona al resolver problemas.\\ \hline
+    Retroalimentacion.&Verificar la respuesta y el procedimiento que se ha seguido; preguntarse si la solución responde a lo que se pide; ¿Habrá otras formas de solucionarlo?&Contexto y entorno.& Un entorno de apoyo que fomente la colaboración y el intercambio de ideas puede enriquecer el proceso de resolución de problemas y conducir a soluciones más innovadoras y efectivas.\\ \hline
+\end{tabular}
+
+\subsection{Cálculo de raíces por aproximación babilónica}
+El método consiste en buscar dos números los cuales su producto sea el número al que buscamos hallarle la raiz. Luego se promedian los lados, se calcula el cociente de el área entre en promedio, ahora la nueva medida de los lados es el promedio y el cociente antes mencionado. Este proceso se repite una cantidad finita de veces, hasta que el promedio de los lados y el cociente del area entre el promedio sean casi idéntidos, más precisamente
+\\\\
+Sea $A$ el cuadrado al que se le calculará la raíz, sean $a_{1},a_{2}$ los lados de un rectángulo tales que $A = a_{1},a_{2}$ entonces
+\begin{gather*}
+    a_{3} = \frac{a_{1} + a_{2}}{2}, a_{4} = \frac{A}{a_{3}}, a_{5} = \frac{a_{3} + a_{4}}{2}, a_{6} = \frac{A}{a_{5}}, \dots , a_{n} \thickapprox a_{n+1}
+\end{gather*}
+
+
+Ejercicio hecho en clase:
+\[
+    A=342, \quad a_{1}=18, a_{2}=19
+\]
+
+\[
+    a_{3} = \frac{37}{2} = 18.5, \quad a_{4} = \frac{342}{18.5} \thickapprox 18.486486
+\]
+
+\[
+    a_{5} = \frac{18.5 +18.486486}{2} \thickapprox 18.4932, a_{6} = \frac{342}{18.4932} = 18.4932
+\]
+
+Así, la raíz de $342 \thickapprox 18.4932$
