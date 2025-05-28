@@ -1,0 +1,12 @@
+\begin{tikzpicture}[baseline=(current bounding box.north), scale = 2]
+    \coordinate (A) at (0,0);
+    \coordinate (B) at (1.8,0);
+    \coordinate (C) at (0,2.4);
+
+    \draw (A) -- (B) -- (C) --cycle;
+    \draw[line width=5pt] (B) -- (C);
+    \node[left] at (0,1.2) {24};
+    \node[above right] at (0.9,1.3) {30};
+    \node[below] at (0,0.9) {x};
+    
+\end{tikzpicture}
